@@ -14,6 +14,9 @@
 		5E99FAFE1B32F7BA00C69637 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E99FAFD1B32F7BA00C69637 /* Images.xcassets */; };
 		5E99FB011B32F7BA00C69637 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E99FAFF1B32F7BA00C69637 /* LaunchScreen.xib */; };
 		5E99FB0D1B32F7BB00C69637 /* FastestRPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E99FB0C1B32F7BB00C69637 /* FastestRPMTests.m */; };
+		5E99FB171B32F84300C69637 /* speedometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E99FB161B32F84300C69637 /* speedometer.png */; };
+		5E99FB191B32F89800C69637 /* speed_needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E99FB181B32F89800C69637 /* speed_needle.png */; };
+		5E99FB1B1B32F94D00C69637 /* speedneedle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E99FB1A1B32F94D00C69637 /* speedneedle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		5E99FB061B32F7BB00C69637 /* FastestRPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastestRPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E99FB0B1B32F7BB00C69637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E99FB0C1B32F7BB00C69637 /* FastestRPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPMTests.m; sourceTree = "<group>"; };
+		5E99FB161B32F84300C69637 /* speedometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speedometer.png; path = ../../../Desktop/speedometer.png; sourceTree = "<group>"; };
+		5E99FB181B32F89800C69637 /* speed_needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speed_needle.png; path = ../../../Desktop/speed_needle.png; sourceTree = "<group>"; };
+		5E99FB1A1B32F94D00C69637 /* speedneedle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speedneedle.png; path = ../../../Desktop/speedneedle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 		5E99FAF01B32F7BA00C69637 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E99FB1A1B32F94D00C69637 /* speedneedle.png */,
+				5E99FB161B32F84300C69637 /* speedometer.png */,
+				5E99FB181B32F89800C69637 /* speed_needle.png */,
 				5E99FAF11B32F7BA00C69637 /* Info.plist */,
 				5E99FAF21B32F7BA00C69637 /* main.m */,
 			);
@@ -199,9 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E99FB1B1B32F94D00C69637 /* speedneedle.png in Resources */,
 				5E99FAFC1B32F7BA00C69637 /* Main.storyboard in Resources */,
 				5E99FB011B32F7BA00C69637 /* LaunchScreen.xib in Resources */,
+				5E99FB191B32F89800C69637 /* speed_needle.png in Resources */,
 				5E99FAFE1B32F7BA00C69637 /* Images.xcassets in Resources */,
+				5E99FB171B32F84300C69637 /* speedometer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

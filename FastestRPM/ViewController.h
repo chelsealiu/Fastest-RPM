@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *speedNeedle;
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *dragGesture;
+
+-(void)dragVelocity:(UIPanGestureRecognizer*)recognizer;
+
+
 
 @end
 
